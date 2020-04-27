@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="数据管理"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/color1"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:text="新增支出"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_data_manage_1"
+            android:layout_weight="1"
+            />
+        <Button
+            android:text="新增收入"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_data_manage_2"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

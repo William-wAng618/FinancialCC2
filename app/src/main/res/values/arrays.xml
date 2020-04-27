@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usages">
+        <item>买吃的</item>
+        <item>淘宝了</item>
+        <item>办卡了</item>
+        <item>看电影</item>
+    </string-array>
+</resources>

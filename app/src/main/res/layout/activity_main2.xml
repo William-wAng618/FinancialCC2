@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="请输入密码以注册："
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/textView_activity_main2_1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="请输入密码"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/editText_activity_main2_1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="注册"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_activity_main2_1"
+            android:layout_weight="1"/>
+        <Button
+            android:text="退出"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_activity_main2_2"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

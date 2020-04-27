@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Out Account Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/color1"
+        android:id="@+id/textView_page333_1"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:text="编 号"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_333_2"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="收入类别"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_333_3"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="金额"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_333_4"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="日期"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_333_5"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/list_view_page333"
+        />
+</LinearLayout>

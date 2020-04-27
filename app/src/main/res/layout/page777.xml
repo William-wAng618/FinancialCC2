@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="新增便签"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/color1"
+        android:gravity="center"
+        android:id="@+id/textView_page777_1" />
+
+    <TextView
+        android:text="请输入便签，最多输入200字"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:id="@+id/textView_page777_2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:minLines="10"
+        android:maxLines="20"
+        android:id="@+id/editText_page777_1" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_page777_1"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_page777_2"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Alter output"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/color1"
+        android:id="@+id/textView_page1111_1" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:text="金 额:"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_page1111_2"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:hint="0.000"
+            android:layout_weight="3"
+            android:id="@+id/editText_page1111_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="类 别:"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_page1111_3"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.42"/>
+
+        <Spinner
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="2.88"
+            android:id="@+id/Spinner"
+            android:entries="@array/usages"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="日 期:"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_page1111_4"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.42"/>
+
+        <TextView
+            android:text="Click to choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_page1111_1"
+            android:layout_weight="2.24" />
+
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="备 注:"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_page1111_5"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.42"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            android:ems="10"
+            android:gravity="top"
+            android:id="@+id/editText_page1111_2"
+            android:layout_weight="1.49" />
+
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:text="修 改"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_page1111_2"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="取 消"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_page1111_3"
+            android:layout_weight="1"/>
+
+
+
+        />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

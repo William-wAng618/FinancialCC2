@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--numerColums每一行多少个-->
+    <!--horizontalSpacing水平间距每一行的单元格之间的间距-->
+    <!--verticalSpacing垂直间距每一行的间距-->
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4"
+        android:layout_marginTop="10dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="20dp"
+        android:gravity="center"
+        android:id="@+id/grid_view"
+        />
+
+</LinearLayout>
